@@ -1,0 +1,21 @@
+{
+  "name": "eslint-config-f2f-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "node node_modules/eslint/bin/eslint.js --ignore-path .eslintignore -c .eslintrc.js ./"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "4.15.0",
+    "eslint-config-airbnb-base": "12.1.0",
+    "eslint-plugin-import": "2.8.0"
+  },
+  "peerDependencies": {
+    "eslint": "4.15.0",
+    "eslint-plugin-import": "2.8.0"
+  }
+}
