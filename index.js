@@ -1,15 +1,18 @@
+// Built on top of the airbnb base linter. Require and add it manually so users
+// of this module don't have to install airbnb as a peerDependency.
+const airbnb = require('eslint-config-airbnb-base');
+
 module.exports = {
 	env: {
 		browser: false,
 		es6: true,
 		node: true,
 	},
-	parserOptions: {
-		sourceType: 'module',
-		ecmaVersion: 6,
-	},
-	extends: 'airbnb-base',
+	parserOptions: airbnb.parserOptions,
+	extends: airbnb.extends.map(require.resolve),
+	plugins: ['import'],
 	rules: {
+		...airbnb.rules,
 		indent: [
 			'error',
 			'tab',

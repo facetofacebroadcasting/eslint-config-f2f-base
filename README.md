@@ -6,9 +6,7 @@ Base configuration for F2F javascript code. Requires a few peer dependencies.
 npm install --save-dev --save-exact eslint-config-f2f-base
 
 # Install peer dependencies
-npm install --save-dev --save-exact eslint@4.15.0
 npm install --save-dev --save-exact eslint-plugin-import@2.8.0
-npm install --save-dev --save-exact eslint-config-airbnb-base@12.1.0
 ```
 
 ## Usage
