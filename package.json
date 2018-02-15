@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "node node_modules/eslint/bin/eslint.js --ignore-path .eslintignore -c .eslintrc.js ./"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/facetofacebroadcasting/eslint-config-f2f-base"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
