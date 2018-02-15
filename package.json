@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-f2f-base",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "eslint-config-airbnb-base": "12.1.0"
+    "eslint-config-airbnb-base": "11.2.0"
   },
   "peerDependencies": {
     "eslint": "3.19.0",
