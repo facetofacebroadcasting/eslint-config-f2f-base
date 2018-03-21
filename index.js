@@ -11,8 +11,7 @@ module.exports = {
 	parserOptions: airbnb.parserOptions,
 	extends: airbnb.extends.map(require.resolve),
 	plugins: ['import'],
-	rules: {
-		...airbnb.rules,
+	rules: Object.assign({}, airbnb.rules, {
 		indent: [
 			'error',
 			'tab',
@@ -37,5 +36,5 @@ module.exports = {
 		'import/extensions': 'off',
 		// We can import ComponentName as Redux container and { ComponentName } as React class
 		'import/no-named-as-default': 'off',
-	},
+	}),
 };
